@@ -21,3 +21,6 @@ __pycache__/
 
 # OS Specific
 .DS_Store
+
+# Misc
+find-all-things.js

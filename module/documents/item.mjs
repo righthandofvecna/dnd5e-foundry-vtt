@@ -996,12 +996,14 @@ export default class Item5e extends Item {
     const consume = this.system.consume || {};
     if ( !consume.type ) return;
 
+    let amount = Number(consume.amount ?? 1);
+
     let target = consume.target;
     if ( !target && consume.type == "ammo" ) {
       // check if an infinite quiver is equipped and attuned
       const infiniteQuivers = this.actor.itemTypes.equipment.filter(i=>i.name.includes("Infinite Quiver") && i.system.attunement != 1).length > 0;
       if (infiniteQuivers)
-        return
+        amount = 0;
       // default to equipped ammunition if empty
       const possibleAmmunition = this.actor.itemTypes.consumable.filter((i) => {
         if ( i.system.consumableType != "ammo" )
@@ -1024,7 +1026,6 @@ export default class Item5e extends Item {
 
     // Identify the consumed resource and its current quantity
     let resource = null;
-    let amount = Number(consume.amount ?? 1);
     let quantity = 0;
     switch ( consume.type ) {
       case "attribute":
@@ -1383,10 +1384,29 @@ export default class Item5e extends Item {
     let ammoUpdate = [];
     const consume = this.system.consume;
     if ( consume?.type === "ammo" ) {
-      ammo = this.actor.items.get(consume.target);
+      let target = consume?.target
+      let consumeAmount = consume.amount ?? 1;
+      if ( !target ) {
+        // check if an infinite quiver is equipped and attuned
+        const infiniteQuivers = this.actor.itemTypes.equipment.filter(i=>i.name.includes("Infinite Quiver") && i.system.attunement != 1).length > 0;
+        if (infiniteQuivers)
+          consumeAmount = 0;
+        // default to equipped ammunition if empty
+        const possibleAmmunition = this.actor.itemTypes.consumable.filter((i) => {
+          if ( i.system.consumableType != "ammo" )
+            return false;
+          if ( i.system.quantity <= 0 )
+            return false;
+          return i.system.equipped;
+        });
+        if (possibleAmmunition.length > 0) {
+          target = possibleAmmunition[0]._id;
+        }
+      }
+
+      ammo = this.actor.items.get(target);
       if ( ammo?.system ) {
         const q = ammo.system.quantity;
-        const consumeAmount = consume.amount ?? 0;
         if ( q && (q - consumeAmount >= 0) ) {
           this._ammo = ammo;
           title += ` [${ammo.name}]`;
@@ -1394,9 +1414,11 @@ export default class Item5e extends Item {
       }
 
       // Get pending ammunition update
-      const usage = this._getUsageUpdates({consumeResource: true});
-      if ( usage === false ) return null;
-      ammoUpdate = usage.resourceUpdates ?? [];
+      if (consumeAmount) {
+        const usage = this._getUsageUpdates({consumeResource: true});
+        if ( usage === false ) return null;
+        ammoUpdate = usage.resourceUpdates ?? [];
+      }
     }
 
     // Flags
