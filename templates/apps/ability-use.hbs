@@ -29,7 +29,7 @@
     {{#if consumeUses}}
     <div class="form-group">
         <label class="checkbox">
-            <input type="checkbox" name="consumeUsage" checked>{{localize "DND5E.AbilityUseConsume"}}
+            <input type="checkbox" name="consumeUsage" {{#unless (eq item.type "weapon")}}checked{{/unless}}>{{localize "DND5E.AbilityUseConsume"}}
         </label>
     </div>
     {{/if}}
@@ -37,7 +37,7 @@
     {{#if consumeResource}}
     <div class="form-group">
         <label class="checkbox">
-            <input type="checkbox" name="consumeResource" checked>{{localize "DND5E.ConsumeResource"}}
+            <input type="checkbox" name="consumeResource" {{#unless (eq item.type "weapon")}}checked{{/unless}}>{{localize "DND5E.ConsumeResource"}}
         </label>
     </div>
     {{/if}}
@@ -45,7 +45,7 @@
     {{#if consumeRecharge}}
     <div class="form-group">
         <label class="checkbox">
-            <input type="checkbox" name="consumeRecharge" checked>{{localize "DND5E.ConsumeRecharge"}}
+            <input type="checkbox" name="consumeRecharge" {{#unless (eq item.type "weapon")}}checked{{/unless}}>{{localize "DND5E.ConsumeRecharge"}}
         </label>
     </div>
     {{/if}}
@@ -53,7 +53,7 @@
     {{#if createTemplate}}
     <div class="form-group">
         <label class="checkbox">
-            <input type="checkbox" name="createMeasuredTemplate" checked>{{localize "DND5E.PlaceTemplate"}}
+            <input type="checkbox" name="createMeasuredTemplate" {{#unless (eq item.type "weapon")}}checked{{/unless}}>{{localize "DND5E.PlaceTemplate"}}
         </label>
     </div>
     {{/if}}
