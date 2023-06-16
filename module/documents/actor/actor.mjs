@@ -2225,7 +2225,7 @@ export default class Actor5e extends Actor {
    */
   _getRestHitDiceRecovery({maxHitDice}={}) {
     // Determine the number of hit dice which may be recovered
-    if ( maxHitDice === undefined ) maxHitDice = Math.max(Math.floor(this.system.details.level / 2), 1);
+    if ( maxHitDice === undefined ) maxHitDice = Math.max(Math.ceil(this.system.details.level / 2), 1);
 
     // Sort classes which can recover HD, assuming players prefer recovering larger HD first.
     const sortedClasses = Object.values(this.classes).sort((a, b) => {
