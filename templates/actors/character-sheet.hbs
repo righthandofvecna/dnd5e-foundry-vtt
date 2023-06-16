@@ -31,13 +31,13 @@
 
             {{!-- Character Summary --}}
             <ul class="summary flexrow">
-                <li>
+                <li class="ancestry">
                     <input type="text" name="system.details.ancestry" value="{{system.details.ancestry}}" placeholder="{{ localize 'DND5E.Ancestry' }}"/>
                 </li>
-                <li>
+                <li class="culture">
                     <input type="text" name="system.details.culture" value="{{system.details.culture}}" placeholder="{{ localize 'DND5E.Culture' }}"/>
                 </li>
-                <li>
+                <li class="background">
                     {{#if labels.background}}
                         <span data-tooltip="DND5E.Background">{{labels.background}}</span>
                     {{else}}
@@ -60,6 +60,7 @@
                         <input name="system.attributes.hp.value" type="text" value="{{hp.value}}" placeholder="10"
                             data-tooltip="DND5E.HitPointsCurrent" data-dtype="Number">
                         <span class="sep"> / </span>
+                        <span data-tooltip="{{#if source.attributes.hp.max}}DND5E.HitPointsOverride{{else}}DND5E.HitPointsMax{{/if}}">
                         <span data-tooltip="{{#if source.attributes.hp.max}}DND5E.HitPointsOverride{{else}}DND5E.HitPointsMax{{/if}}">
                             {{hp.max}}
                         </span>
@@ -180,7 +181,8 @@
             <ul class="skills-list">
             {{#each config.skills as |obj s|}}
             {{#with (lookup ../skills s) as |skill|}}
-                <li class="skill flexrow {{#if skill.value}}proficient{{/if}}" data-skill="{{s}}">
+                <li class="proficiency-row skill flexrow {{#if skill.value}}proficient{{/if}}"
+                    data-property="skills" data-key="{{s}}">
                     <input type="hidden" name="system.skills.{{s}}.value"
                            value="{{skill.baseValue}}" data-dtype="Number">
                     <input type="hidden" name="system.skills.{{s}}.ability" value="{{skill.ability}}">

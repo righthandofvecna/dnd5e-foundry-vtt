@@ -5,7 +5,7 @@
   "version": "2.1.5",
   "compatibility": {
     "minimum": "10.291",
-    "verified": "10"
+    "verified": "11"
   },
   "url": "http://localhost:43516/",
   "manifest": "http://localhost:43516/system.json",
@@ -167,7 +167,7 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "attributes.hp",
   "flags": {
-    "needsMigrationVersion": "2.1.2",
+    "needsMigrationVersion": "2.2.0",
     "compatibleMigrationVersion": "0.8"
   }
 }
