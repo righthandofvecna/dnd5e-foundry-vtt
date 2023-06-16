@@ -7,7 +7,7 @@
   "type": "feat",
   "system": {
     "description": {
-      "value": "<p>The skill of blood magic allows you to draw magical power from the life energy that beats within flowing veins, stealing away blood to use for your own ends.</p>\n<p>You can cast a spell you know without expending a spell slot by expending some of your hit dice. The spell must be of 1st to 3rd level, and the number of hit dice you need to expend is equal to the level of the spell. The spell is cast at its lowest level and retains its normal casting time, and you do not gain any hit points by spending these hit dice.</p>",
+      "value": "<p>The skill of blood magic allows you to draw magical power from the life energy that beats within flowing veins, stealing away blood to use for your own ends.</p>\n<p>On your turn, you can cast a spell you know without expending a spell slot by expending some of your hit dice. The spell must be of 1st to 3rd level, and the number of hit dice you need to expend is equal to the level of the spell. The spell is cast at its lowest level and retains its normal casting time, and you do not gain any hit points by spending these hit dice.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -82,7 +82,7 @@
     "systemVersion": "2.1.0",
     "coreVersion": "10.291",
     "createdTime": 1676257596674,
-    "modifiedTime": 1676257596674,
+    "modifiedTime": 1686951064278,
     "lastModifiedBy": "RightHandOfVecna"
   }
 }

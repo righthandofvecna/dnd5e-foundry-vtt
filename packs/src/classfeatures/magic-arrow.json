@@ -7,7 +7,7 @@
   "type": "feat",
   "system": {
     "description": {
-      "value": "<p>At 7th level, you gain the ability to infuse arrows with magic. Whenever you fire a nonmagical arrow from a shortbow or longbow, you can make it magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. The magic fades from the arrow immediately after it hits or misses its target.</p>",
+      "value": "<p>At 7th level, you gain the ability to infuse arrows with magic. Whenever you fire an arrow from a shortbow or longbow, you can make it magical, adamantine, silvered, cold iron, and starmetal for the purpose of overcoming resistance and immunity to attacks and damage. The magic fades from the arrow immediately after it hits or misses its target.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -82,7 +82,7 @@
     "systemVersion": "2.1.0",
     "coreVersion": "10.291",
     "createdTime": 1675986803571,
-    "modifiedTime": 1676491015923,
+    "modifiedTime": 1686951064986,
     "lastModifiedBy": "RightHandOfVecna"
   }
 }

@@ -91,8 +91,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.classfeatures.nUrZDi6QN1YjwAr6",
-            "Compendium.dnd5e.classfeatures.31bKbWe9ZGVLEns6"
+            "Compendium.dnd5e.classfeatures.hnU1nIUBNYABsQ0N"
           ],
           "optional": false,
           "spell": {
@@ -166,7 +165,7 @@
     "systemVersion": "2.1.0",
     "coreVersion": "10.291",
     "createdTime": 1661787234283,
-    "modifiedTime": 1675986801165,
-    "lastModifiedBy": "dnd5ebuilder0000"
+    "modifiedTime": 1686951062225,
+    "lastModifiedBy": "RightHandOfVecna"
   }
 }

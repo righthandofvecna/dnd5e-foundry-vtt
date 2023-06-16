@@ -7,7 +7,7 @@
   "type": "feat",
   "system": {
     "description": {
-      "value": "<p>You have learned to heft and balance unwieldly weapons. You gain the following benefits:</p>\n<ul>\n<li>You can wield a two-handed melee weapon in one hand. You can wield only one weapon in such a way.</li>\n<li>When you wield a weapon with the versatile property in one hand, you can treat it as if you were wielding it in both hands.</li>\n<li>You can treat all melee weapons as if they had the <strong>thrown (20/60)</strong> property.</li>\n</ul>",
+      "value": "<p>You have learned to heft and balance unwieldy weapons. You gain the following benefits:</p>\n<ul>\n<li>You can wield a two-handed melee weapon in one hand. You can wield only one weapon in such a way.</li>\n<li>When you wield a weapon with the versatile property in one hand, you can treat it as if you were wielding it in both hands if you are not holding another weapon with the two-handed or versatile property.</li>\n<li>If you are Small, you don't have disadvantage on attack rolls from weapons with the heavy property.</li>\n<li>You can treat all melee weapons as if they had the <strong>thrown (20/60)</strong> property.</li>\n</ul>",
       "chat": "",
       "unidentified": ""
     },
@@ -82,7 +82,7 @@
     "systemVersion": "2.1.0",
     "coreVersion": "10.291",
     "createdTime": 1676257596890,
-    "modifiedTime": 1676257596890,
+    "modifiedTime": 1686951064455,
     "lastModifiedBy": "RightHandOfVecna"
   }
 }

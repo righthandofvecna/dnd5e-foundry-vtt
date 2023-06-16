@@ -7,7 +7,7 @@
   "type": "feat",
   "system": {
     "description": {
-      "value": "<p>The accuracy of elves is legendary, especially that of elf archers and spellcasters. You have uncanny aim with attacks that rely on precision rather than brute force. You gain the following benefits:</p>\n<ul>\n<li>Increase your Dexterity, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20</li>\n<li>Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once.</li>\n</ul>",
+      "value": "<p>The accuracy of elves is legendary, especially that of elf archers and spellcasters. You have uncanny aim with attacks that rely on precision rather than brute force. Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -111,7 +111,7 @@
     "systemVersion": "2.1.0",
     "coreVersion": "10.291",
     "createdTime": 1676257596752,
-    "modifiedTime": 1676257596752,
+    "modifiedTime": 1686951064333,
     "lastModifiedBy": "RightHandOfVecna"
   }
 }

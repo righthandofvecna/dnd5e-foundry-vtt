@@ -1,13 +1,13 @@
 {
-  "_id": "5ZQCIKQ8PPJMEKET",
-  "name": "Venomous Strike",
+  "_id": "wbPqmdmMwHv9JoZm",
+  "name": "Acid Blast",
   "ownership": {
     "default": 0
   },
   "type": "spell",
   "system": {
     "description": {
-      "value": "<p>You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within the weapon's reach. On a hit, the target suffers the weapon attack's normal effects, and you cause venom to seep from the wound. The target takes an additional <strong>1d8 poison damage</strong>, and if the attack was a critical hit, the target is poisoned until the end of its next turn.</p><p>This spell's extra poison damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>",
+      "value": "<p>A droplet of acid streaks from your pointing finger towards a creature you choose within range then explodes with a soft hiss into a pool of acid. Make a <strong>ranged spell attack</strong> against the target. The target takes <strong>8d4 acid damage</strong> on a hit, or half as much damage on a miss.</p><p><strong><em>At Higher Levels:</em></strong> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 2d4 for each slot level above 3rd.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -18,20 +18,20 @@
       "condition": ""
     },
     "duration": {
-      "value": "",
-      "units": "inst"
+      "value": "1",
+      "units": "round"
     },
     "cover": null,
     "target": {
-      "value": null,
+      "value": 1,
       "width": null,
       "units": "",
-      "type": "self"
+      "type": "creature"
     },
     "range": {
-      "value": null,
+      "value": 150,
       "long": null,
-      "units": "self"
+      "units": "ft"
     },
     "uses": {
       "value": null,
@@ -45,7 +45,7 @@
       "amount": null
     },
     "ability": "",
-    "actionType": "mwak",
+    "actionType": "rsak",
     "attackBonus": "",
     "chatFlavor": "",
     "critical": {
@@ -55,8 +55,8 @@
     "damage": {
       "parts": [
         [
-          "1d8",
-          "poison"
+          "8d4",
+          "acid"
         ]
       ],
       "versatile": ""
@@ -67,17 +67,17 @@
       "dc": null,
       "scaling": "spell"
     },
-    "level": 0,
-    "school": "trs",
+    "level": 3,
+    "school": "con",
     "components": {
       "vocal": true,
-      "somatic": false,
+      "somatic": true,
       "material": true,
       "ritual": false,
       "concentration": false
     },
     "materials": {
-      "value": "A dagger or shortsword",
+      "value": "A vial of acid",
       "consumed": false,
       "cost": 0,
       "supply": 0
@@ -87,21 +87,21 @@
       "prepared": false
     },
     "scaling": {
-      "mode": "cantrip",
-      "formula": ""
+      "mode": "level",
+      "formula": "2d4"
     }
   },
   "sort": 0,
   "flags": {},
-  "img": "icons/magic/water/pseudopod-swirl-blue.webp",
+  "img": "icons/magic/nature/wolf-paw-glow-large-orange.webp",
   "effects": [],
   "folder": null,
   "_stats": {
     "systemId": "dnd5e",
     "systemVersion": "2.1.0",
     "coreVersion": "10.291",
-    "createdTime": 1675986798586,
-    "modifiedTime": 1686951031089,
+    "createdTime": 1686951029009,
+    "modifiedTime": 1686951029009,
     "lastModifiedBy": "RightHandOfVecna"
   }
 }

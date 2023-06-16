@@ -108,6 +108,27 @@
         "title": "Features"
       },
       {
+        "_id": "r5llrpqzdaszdqcp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e.classfeatures.zB77V8BcCJvWVxck"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 11,
+        "title": "Features"
+      },
+      {
         "_id": "j2llrpqzdjszdqcr",
         "type": "ItemGrant",
         "configuration": {

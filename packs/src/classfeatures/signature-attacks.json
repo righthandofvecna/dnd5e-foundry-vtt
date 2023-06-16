@@ -1,0 +1,88 @@
+{
+  "_id": "PTtuqKhBndM1IhsJ",
+  "name": "Signature Attacks",
+  "ownership": {
+    "default": 0
+  },
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Also at 5th level, you choose two of the following options. When an option allows you to expend a hit die, you do not regain lost hit points from doing so. You can choose an option only once, even if you later get to choose again.</p>\n<h3>Throw Enemy</h3>\n<p>When you are grappling a creature while raging, you make a special attack by expending a hit die and throwing the grappled creature. Make an improvised ranged attack roll using Strength (you are proficient with this attack), targeting one creature within 20 feet of you. The grapple then immediately ends.</p>\n<p>On a hit, both your target and the creature you're grappling take an amount of bludgeoning damage equal to 1d12 + your Strength modifier, and both targets must make a Strength saving throw (DC equal to 8 + your Strength modifier + your proficiency bonus) or be knocked prone if they are Medium or smaller. On a miss, only the creature you're grappling takes this damage, and neither fall prone.</p>\n<h3>Throw Rubble</h3>\n<p>While you are raging, you can make a special attack by expending a hit die and picking up and throwing extremely heavy objects. Make an improvised ranged attack roll using Strength (you are proficient with this attack), targeting one creature within 20 feet of you. The maximum weight of the projectile is equal to five times your Strength score in pounds, but you have disadvantage on the attack roll with a projectile that weighs more than twice your Strength score in pounds.</p>\n<p>On a hit, the target takes bludgeoning damage equal to 1d8 + your Strength modifier, plus 2d8 if the projectile weighs more than 40 pounds. Hit or miss, the projectile then breaks unless the DM rules it is particularly resilient.</p>\n<h3>Recuperating Strike</h3>\n<p>While you are raging, you can make a special attack by expending a hit die and making an attack with a melee weapon. Roll the attack and damage normally. On a hit, you deal an extra damage die of the weapon's type equal to the hit die you expended. On a miss, you roll the hit die you expended and regain hit points equal to the roll.</p>\n<h3>Daring Charge</h3>\n<p>While you are raging, you can make a special attack by expending a hit die and making an attack with a melee weapon. Roll the attack normally. On a hit, you deal a number of extra d12 as damage equal to 1 + the number of opportunity attacks that have targeted you this turn.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SRD 5.1",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Barbarian 5",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "flags": {},
+  "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.0",
+    "coreVersion": "10.291",
+    "createdTime": 1686951065455,
+    "modifiedTime": 1686951065455,
+    "lastModifiedBy": "RightHandOfVecna"
+  }
+}

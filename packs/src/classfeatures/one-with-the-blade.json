@@ -7,7 +7,7 @@
   "type": "feat",
   "system": {
     "description": {
-      "value": "<p>At 6th level, you extend your ki into your kensei weapons, granting you the following benefits.</p>\n<p><strong><em>Magic Kensei Weapons.</em></strong> Your attacks with your kensei weapons count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>\n<p><strong><em>Deft Strike.</em></strong> When you hit a target with a kensei weapon, you can spend 1 ki point to cause the weapon to deal extra damage to the target equal to your Martial Arts die. You can use this feature only once on each of your turns.</p>",
+      "value": "<p>At 6th level, you extend your ki into your kensei weapons, granting you the following benefits.</p>\n<p><strong><em>Magic Kensei Weapons.</em></strong> Your attacks with your kensei weapons count as magical, adamantine, silvered, cold iron, and starmetal for the purpose of overcoming resistance and immunity to attacks and damage.</p>\n<p><strong><em>Deft Strike.</em></strong> When you hit a target with a kensei weapon, you can spend 1 ki point to cause the weapon to deal extra damage to the target equal to your Martial Arts die. You can use this feature only once on each of your turns.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -82,7 +82,7 @@
     "systemVersion": "2.1.0",
     "coreVersion": "10.291",
     "createdTime": 1675986803894,
-    "modifiedTime": 1676491016097,
+    "modifiedTime": 1686951065210,
     "lastModifiedBy": "RightHandOfVecna"
   }
 }
