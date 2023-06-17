@@ -2,14 +2,14 @@
   "id": "dnd5e",
   "title": "DnD5e - Homebrew System",
   "description": "A system for playing the fifth edition, homebrew, of the worlds most popular role-playing game in the Foundry Virtual Tabletop environment.",
-  "version": "2.1.5",
+  "version": "2.2.1",
   "compatibility": {
     "minimum": "10.291",
     "verified": "11"
   },
   "url": "http://localhost:43516/",
   "manifest": "http://localhost:43516/system.json",
-  "download": "http://localhost:43516/dnd5e-release-2.1.5.zip",
+  "download": "http://localhost:43516/dnd5e-release-2.2.1.zip",
   "authors": [
     {
       "name": "Atropos",
