@@ -1,4 +1,5 @@
 import SystemDataModel from "../abstract.mjs";
+import { MappingField } from "../fields.mjs";
 import ActionTemplate from "./templates/action.mjs";
 import ActivatedEffectTemplate from "./templates/activated-effect.mjs";
 import EquippableItemTemplate from "./templates/equippable-item.mjs";
