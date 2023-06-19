@@ -1273,7 +1273,7 @@ export default class Item5e extends Item {
         left: window.innerWidth - 710
       },
       messageData: {
-        "flags.dnd5e.roll": {type: "attack", itemId: this.id, itemUuid: this.uuid, ammoUuid: this._ammo.uuid},
+        "flags.dnd5e.roll": {type: "attack", itemId: this.id, itemUuid: this.uuid, ammoUuid: this._ammo?.uuid},
         speaker: ChatMessage.getSpeaker({actor: this.actor})
       }
     }, options);
