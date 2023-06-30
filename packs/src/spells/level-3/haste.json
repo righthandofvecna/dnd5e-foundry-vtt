@@ -89,14 +89,47 @@
   "sort": 0,
   "flags": {},
   "img": "icons/magic/control/buff-flight-wings-runes-purple.webp",
-  "effects": [],
-  "folder": null,
+  "effects": [
+    {
+      "label": "Haste",
+      "icon": "icons/magic/control/buff-flight-wings-runes-purple.webp",
+      "origin": "Item.Szvk5FEVQW3uhJi5",
+      "duration": {
+        "rounds": 1,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "_id": "yWML8E3RLojtms3m",
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 1,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "tint": null,
+      "transfer": true,
+      "flags": {}
+    }
+  ],
   "_stats": {
     "systemId": "dnd5e",
-    "systemVersion": "2.1.0",
+    "systemVersion": "2.2.1",
     "coreVersion": "10.291",
     "createdTime": 1661787234143,
-    "modifiedTime": 1675989934375,
+    "modifiedTime": 1687905670243,
     "lastModifiedBy": "RightHandOfVecna"
   }
 }

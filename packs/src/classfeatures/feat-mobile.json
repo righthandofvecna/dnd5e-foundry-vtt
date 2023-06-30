@@ -22,6 +22,7 @@
       "units": ""
     },
     "cover": null,
+    "crewed": false,
     "target": {
       "value": null,
       "width": null,
@@ -73,16 +74,44 @@
     }
   },
   "flags": {},
-  "img": "",
-  "effects": [],
+  "img": "icons/skills/movement/feet-winged-boots-blue.webp",
+  "effects": [
+    {
+      "label": "Mobile",
+      "icon": "icons/skills/movement/feet-winged-boots-blue.webp",
+      "origin": "Item.h7VED946nZjblgBQ",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "vgXGyStLE1XxVlQx",
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 2,
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "tint": null,
+      "transfer": true,
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "_stats": {
     "systemId": "dnd5e",
-    "systemVersion": "2.1.0",
+    "systemVersion": "2.1.5",
     "coreVersion": "10.291",
     "createdTime": 1676257596873,
-    "modifiedTime": 1676257596873,
+    "modifiedTime": 1684913367914,
     "lastModifiedBy": "RightHandOfVecna"
   }
 }

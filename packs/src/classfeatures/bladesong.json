@@ -13,8 +13,8 @@
     },
     "source": "SRD 5.1",
     "activation": {
-      "type": "",
-      "cost": null,
+      "type": "bonus",
+      "cost": 1,
       "condition": ""
     },
     "duration": {
@@ -22,6 +22,7 @@
       "units": ""
     },
     "cover": null,
+    "crewed": false,
     "target": {
       "value": null,
       "width": null,
@@ -34,14 +35,14 @@
       "units": ""
     },
     "uses": {
-      "value": null,
-      "max": "",
-      "per": null,
+      "value": 2,
+      "max": "2",
+      "per": "sr",
       "recovery": ""
     },
     "consume": {
       "type": "",
-      "target": null,
+      "target": "",
       "amount": null
     },
     "ability": null,
@@ -74,15 +75,55 @@
   },
   "flags": {},
   "img": "icons/magic/symbols/runes-etched-steel-blade.webp",
-  "effects": [],
+  "effects": [
+    {
+      "label": "Bladesong",
+      "icon": "icons/magic/symbols/runes-etched-steel-blade.webp",
+      "origin": "Item.SJ8L64XGZ0DI0M1U",
+      "duration": {
+        "rounds": 10,
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "_id": "QNT3cEmMXEF6GmDk",
+      "changes": [
+        {
+          "key": "system.attributes.ac.calc",
+          "mode": 5,
+          "value": "custom",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.ac.formula",
+          "mode": 5,
+          "value": "13 + @abilities.dex.mod + @abilities.int.mod",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 2,
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "tint": null,
+      "transfer": true,
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "_stats": {
     "systemId": "dnd5e",
-    "systemVersion": "2.1.0",
+    "systemVersion": "2.1.5",
     "coreVersion": "10.291",
     "createdTime": 1675986801956,
-    "modifiedTime": 1676491014833,
+    "modifiedTime": 1685330607253,
     "lastModifiedBy": "RightHandOfVecna"
   }
 }

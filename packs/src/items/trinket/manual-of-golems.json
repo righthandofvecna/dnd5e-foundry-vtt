@@ -13,8 +13,8 @@
     "quantity": 1,
     "weight": 1,
     "price": {
-      "value": 35000,
-      "denomination": "gp"
+      "value": 0,
+      "denomination": "cp"
     },
     "attunement": 0,
     "equipped": false,

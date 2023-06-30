@@ -5,7 +5,7 @@
   "img": "icons/equipment/finger/ring-cabochon-gold-orange.webp",
   "system": {
     "description": {
-      "value": "<p><em>(Requires attunement)</em></p>\n<p>While wearing this ring, you have resistance to cold damage. In addition, you and everything you wear and carry are unharmed by temperatures as low as −50 degrees Fahrenheit.</p>",
+      "value": "<p><em>(Requires attunement)</em></p>\n<p>While wearing this ring, you have resistance to cold damage. In addition, you and everything you wear and carry are unharmed by temperatures as low as \u221250 degrees Fahrenheit.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -13,7 +13,7 @@
     "quantity": 1,
     "weight": 0,
     "price": {
-      "value": 1000,
+      "value": 2500,
       "denomination": "gp"
     },
     "attunement": 1,

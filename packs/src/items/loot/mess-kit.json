@@ -14,7 +14,7 @@
     "weight": 1,
     "price": {
       "value": 2,
-      "denomination": "sp"
+      "denomination": "gp"
     },
     "attunement": 0,
     "equipped": false,

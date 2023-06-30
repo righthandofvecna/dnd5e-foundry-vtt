@@ -89,6 +89,12 @@ def natJoin(lst:List[str], connector:str="and"):
 def atoi(text):
     return int(text) if text.isdigit() else text
 
+def extract_int(text:str)->int:
+    digits = [int(i) for i in text if i.isdigit()]
+    if len(digits) > 0:
+        return sum([n*(10**i) for i, n in enumerate(digits[::-1])])
+    return 0
+
 def naturalSort(text):
     '''
     alist.sort(key=natural_keys) sorts in human order

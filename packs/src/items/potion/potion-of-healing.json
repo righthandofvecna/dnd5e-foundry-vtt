@@ -5,7 +5,7 @@
   "img": "icons/consumables/potions/potion-tube-corked-red.webp",
   "system": {
     "description": {
-      "value": "<p><em>The potion's red liquid glimmers when agitated.</em></p>\n<p>You regain 2d4+2 hit points when you drink this potion.</p>\n<p> </p>\n<p> </p>",
+      "value": "<p><em>The potion's red liquid glimmers when agitated.</em></p>\n<p>You regain 2d4+2 hit points when you drink this potion.</p>\n<p>\u00a0</p>\n<p>\u00a0</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -13,7 +13,7 @@
     "quantity": 1,
     "weight": 0.1,
     "price": {
-      "value": 50,
+      "value": 20,
       "denomination": "gp"
     },
     "attunement": 0,

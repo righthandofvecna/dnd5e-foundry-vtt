@@ -13,7 +13,7 @@
     "quantity": 1,
     "weight": 6,
     "price": {
-      "value": 2,
+      "value": 20,
       "denomination": "gp"
     },
     "attunement": 0,

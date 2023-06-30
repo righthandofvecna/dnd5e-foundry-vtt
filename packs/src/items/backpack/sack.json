@@ -13,7 +13,7 @@
     "quantity": 1,
     "weight": 0.5,
     "price": {
-      "value": 1,
+      "value": 2,
       "denomination": "cp"
     },
     "attunement": 0,

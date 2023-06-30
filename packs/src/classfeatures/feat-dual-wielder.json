@@ -22,6 +22,7 @@
       "units": ""
     },
     "cover": null,
+    "crewed": false,
     "target": {
       "value": null,
       "width": null,
@@ -73,16 +74,44 @@
     }
   },
   "flags": {},
-  "img": "",
-  "effects": [],
+  "img": "icons/skills/melee/maneuver-daggers-paired-orange.webp",
+  "effects": [
+    {
+      "label": "Dual Wielder",
+      "icon": "icons/skills/melee/maneuver-daggers-paired-orange.webp",
+      "origin": "Item.pTqwlfU4aM9TK5Be",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "csBidaPzgkjUAogS",
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "+1",
+          "priority": null
+        }
+      ],
+      "tint": null,
+      "transfer": true,
+      "flags": {}
+    }
+  ],
   "folder": null,
   "sort": 0,
   "_stats": {
     "systemId": "dnd5e",
-    "systemVersion": "2.1.0",
+    "systemVersion": "2.1.5",
     "coreVersion": "10.291",
     "createdTime": 1676257596738,
-    "modifiedTime": 1676257596738,
+    "modifiedTime": 1685330461477,
     "lastModifiedBy": "RightHandOfVecna"
   }
 }

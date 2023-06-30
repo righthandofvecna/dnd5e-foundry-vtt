@@ -13,8 +13,8 @@
     "quantity": 1,
     "weight": 1,
     "price": {
-      "value": 2,
-      "denomination": "cp"
+      "value": 1,
+      "denomination": "sp"
     },
     "attunement": 0,
     "equipped": false,
