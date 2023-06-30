@@ -650,6 +650,15 @@ DND5E.shieldIds = {
 };
 
 /**
+ * Armor and shield types.
+ * @enum {string}
+ */
+DND5E.armorShieldIds = {
+  ...DND5E.armorIds,
+  ...DND5E.shieldIds,
+};
+
+/**
  * Common armor class calculations.
  * @enum {{ label: string, [formula]: string }}
  */

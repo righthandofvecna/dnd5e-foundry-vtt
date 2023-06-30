@@ -184,11 +184,11 @@ export default class ItemSheet5e extends ItemSheet {
    * @protected
    */
   async _getItemBaseTypes() {
-    const type = this.item.type === "equipment" ? "armor" : this.item.type;
+    const type = this.item.type === "equipment" ? "armorOrShield" : this.item.type;
     const baseIds = CONFIG.DND5E[`${type}Ids`];
     if ( baseIds === undefined ) return {};
 
-    const typeProperty = type === "armor" ? "armor.type" : `${type}Type`;
+    const typeProperty = type === "armorOrShield" ? "armor.type" : `${type}Type`;
     const baseType = foundry.utils.getProperty(this.item.system, typeProperty);
 
     const items = {};
