@@ -87,11 +87,11 @@
         {
           "key": "system.attributes.ac.calc",
           "mode": 5,
-          "value": "natural",
+          "value": "custom",
           "priority": null
         },
         {
-          "key": "system.attributes.ac.flat",
+          "key": "system.attributes.ac.formula",
           "mode": 5,
           "value": "13 + @abilities.dex.mod",
           "priority": null
