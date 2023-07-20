@@ -601,7 +601,7 @@ export default class Item5e extends Item {
 
     // One-time bonus provided by consumed ammunition
     if ( (this.system.consume?.type === "ammo") && this.actor.items ) {
-      const ammoItem = this.actor.items.get(this.system.consume.target);
+      const ammoItem = this.usedAmmo;
       if ( ammoItem ) {
         const ammoItemQuantity = ammoItem.system.quantity;
         const ammoCanBeConsumed = ammoItemQuantity && (ammoItemQuantity - (this.system.consume.amount ?? 0) >= 0);
@@ -1195,6 +1195,30 @@ export default class Item5e extends Item {
   /*  Item Rolls - Attack, Damage, Saves, Checks  */
   /* -------------------------------------------- */
 
+  get usedAmmo() {
+    let ammo = undefined;
+    const consume = this.system.consume;
+    if ( consume?.type === "ammo" ) {
+      let target = consume?.target
+      if ( !target ) {
+        // default to equipped ammunition if empty
+        const possibleAmmunition = this.actor.itemTypes.consumable.filter((i) => {
+          if ( i.system.consumableType != "ammo" )
+            return false;
+          if ( i.system.quantity <= 0 )
+            return false;
+          return i.system.equipped;
+        });
+        if (possibleAmmunition.length > 0) {
+          target = possibleAmmunition[0]._id;
+        }
+      }
+
+      ammo = this.actor.items.get(target);
+    }
+    return ammo;
+  }
+
   /**
    * Place an attack roll using an item (weapon, feat, spell, or equipment)
    * Rely upon the d20Roll logic for the core implementation
@@ -1217,27 +1241,13 @@ export default class Item5e extends Item {
     let ammoUpdate = [];
     const consume = this.system.consume;
     if ( consume?.type === "ammo" ) {
-      let target = consume?.target
-      let consumeAmount = consume.amount ?? 1;
-      if ( !target ) {
-        // check if an infinite quiver is equipped and attuned
-        const infiniteQuivers = this.actor.itemTypes.equipment.filter(i=>i.name.includes("Infinite Quiver") && i.system.attunement != 1).length > 0;
-        if (infiniteQuivers)
-          consumeAmount = 0;
-        // default to equipped ammunition if empty
-        const possibleAmmunition = this.actor.itemTypes.consumable.filter((i) => {
-          if ( i.system.consumableType != "ammo" )
-            return false;
-          if ( i.system.quantity <= 0 )
-            return false;
-          return i.system.equipped;
-        });
-        if (possibleAmmunition.length > 0) {
-          target = possibleAmmunition[0]._id;
-        }
-      }
-
-      ammo = this.actor.items.get(target);
+      let consumeAmount = consume?.amount ?? 1;
+      // check if an infinite quiver is equipped and attuned
+      const infiniteQuivers = this.actor.itemTypes.equipment.filter(i=>i.name.includes("Infinite Quiver") && i.system.attunement != 1).length > 0;
+      if (infiniteQuivers)
+        consumeAmount = 0;
+      
+      ammo = this.usedAmmo;
       if ( ammo?.system ) {
         const q = ammo.system.quantity;
         if ( q && (q - consumeAmount >= 0) ) {

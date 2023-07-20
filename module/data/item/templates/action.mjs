@@ -162,6 +162,10 @@ export default class ActionTemplate extends foundry.abstract.DataModel {
 
   /* -------------------------------------------- */
 
+  get usedAmmo() {
+    return this.parent?.usedAmmo;
+  }
+
   /**
    * What is the critical hit threshold for this item? Uses the smallest value from among the following sources:
    *  - `critical.threshold` defined on the item
@@ -171,10 +175,7 @@ export default class ActionTemplate extends foundry.abstract.DataModel {
    */
   get criticalThreshold() {
     if ( !this.hasAttack ) return null;
-    let ammoThreshold = Infinity;
-    if ( this.consume?.type === "ammo" ) {
-      ammoThreshold = this.parent?.actor?.items.get(this.consume.target).system.critical.threshold ?? Infinity;
-    }
+    let ammoThreshold = this.usedAmmo?.system.critical.threshold ?? Infinity;
     const threshold = Math.min(this.critical.threshold ?? Infinity, this._typeCriticalThreshold, ammoThreshold);
     return threshold < Infinity ? threshold : 20;
   }
