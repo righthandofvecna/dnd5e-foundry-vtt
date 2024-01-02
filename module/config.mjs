@@ -233,7 +233,7 @@ DND5E.weaponIds = {
   handcrossbow: "qaSro7kFhxD6INbZ",
   heavycrossbow: "RmP0mYRn2J7K26rX",
   javelin: "DWLMnODrnHn8IbAG",
-  katana: "10ZP2Bu3vnCuYMIB",
+  katana: "10ZP2Bu3vnCuYMIZ",
   khopesh: "10ZP2Bu3vnCuY8AG",
   kusarigama: "10ZP2Bu3vnCuY9Hg",
   lance: "RnuxdHUAIgxccVwj",
