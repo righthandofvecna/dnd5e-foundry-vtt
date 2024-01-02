@@ -1,17 +1,17 @@
 {
-  "_id": "QKTyxoO0YDnAsbYe",
+  "_id": "QKTyxoO0YDnAsD8N",
   "name": "Whip",
   "type": "weapon",
   "img": "icons/weapons/misc/whip-red-yellow.webp",
   "system": {
     "description": {
-      "value": "<p>A tensile lash made of leather, cord, or chain which can lash out at nearby enemies, dealing lacerations and harrying them from a distance.</p>",
+      "value": "<p>A long metal chain covered in sharp spikes, suitable for whipping and entangling around enemies.</p>",
       "chat": "",
       "unidentified": ""
     },
     "source": "SRD 5.1",
     "quantity": 1,
-    "weight": 3,
+    "weight": 5,
     "price": {
       "value": 30,
       "denomination": "gp"
@@ -85,12 +85,13 @@
       "conditions": ""
     },
     "weaponType": "martialM",
-    "baseItem": "whip",
+    "baseItem": "spikedChain",
     "properties": {
-      "fin": true,
+      "hvy": true,
       "rch": true,
+      "jgd": true,
       "amm": false,
-      "hvy": false,
+      "fin": false,
       "fir": false,
       "foc": false,
       "lgt": false,

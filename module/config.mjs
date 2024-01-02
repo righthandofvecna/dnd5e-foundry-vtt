@@ -215,10 +215,15 @@ DND5E.weaponProficienciesMap = {
 DND5E.weaponIds = {
   battleaxe: "I0WocDSuNpGJayPb",
   blowgun: "wNWK6yJMHG9ANqQV",
+  bola: "3gynWO9sN4OLGAfI",
+  boomerang: "3gynWO9sN4OLGLI4",
+  caneSword: "osLzOwQdPtrK3rQI",
   club: "nfIRTECQIG81CvM4",
   dagger: "0E565kQUBmndJ1a2",
+  daggerToedBoot: "osLzOwQdPtrK3rQI",
   dart: "3rCO8MTIdPGSW6IJ",
   flail: "UrH3sMdnUDckIHJ6",
+  gauntlet: "osLzOwQdPtrK3rQI",
   glaive: "rOG1OM2ihgPjOvFW",
   greataxe: "1Lxk6kmoRhG8qQ0u",
   greatclub: "QRCsxkCwWNwswL9o",
@@ -228,6 +233,9 @@ DND5E.weaponIds = {
   handcrossbow: "qaSro7kFhxD6INbZ",
   heavycrossbow: "RmP0mYRn2J7K26rX",
   javelin: "DWLMnODrnHn8IbAG",
+  katana: "10ZP2Bu3vnCuYMIB",
+  khopesh: "10ZP2Bu3vnCuY8AG",
+  kusarigama: "10ZP2Bu3vnCuY9Hg",
   lance: "RnuxdHUAIgxccVwj",
   lightcrossbow: "ddWvQRLmnnIS0eLF",
   lighthammer: "XVK6TOL4sGItssAE",
@@ -241,15 +249,18 @@ DND5E.weaponIds = {
   quarterstaff: "g2dWN7PQiMRYWzyk",
   rapier: "Tobce1hexTnDk4sV",
   scimitar: "fbC0Mg1a73wdFbqO",
+  scythe: "i4NeNZ30ycwPDHMy",
   shortsword: "osLzOwQdPtrK3rQH",
   sickle: "i4NeNZ30ycwPDHMx",
   spear: "OG4nBBydvmfWYXIk",
+  spikedChain: "QKTyxoO0YDnAsD8N",
   shortbow: "GJv6WkD7D2J6rP6M",
   sling: "3gynWO9sN4OLGMWD",
   trident: "F65ANO66ckP8FDMa",
   warpick: "2YdfjN1PIIrSHZii",
   warhammer: "F0Df164Xv1gWcYt0",
-  whip: "QKTyxoO0YDnAsbYe"
+  whip: "QKTyxoO0YDnAsbYe",
+  wristDagger: "0E565kQUBmndJ8Hd"
 };
 
 /* -------------------------------------------- */

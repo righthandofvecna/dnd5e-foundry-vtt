@@ -1,19 +1,19 @@
 {
-  "_id": "QKTyxoO0YDnAsbYe",
-  "name": "Whip",
+  "_id": "10ZP2Bu3vnCuY8AG",
+  "name": "Khopesh",
   "type": "weapon",
-  "img": "icons/weapons/misc/whip-red-yellow.webp",
+  "img": "icons/weapons/swords/greatsword-crossguard-steel.webp",
   "system": {
     "description": {
-      "value": "<p>A tensile lash made of leather, cord, or chain which can lash out at nearby enemies, dealing lacerations and harrying them from a distance.</p>",
+      "value": "<p>A curved blade with a leading profile reminiscent of an axe.</p>",
       "chat": "",
       "unidentified": ""
     },
     "source": "SRD 5.1",
     "quantity": 1,
-    "weight": 3,
+    "weight": 4,
     "price": {
-      "value": 30,
+      "value": 25,
       "denomination": "gp"
     },
     "attunement": 0,
@@ -37,7 +37,7 @@
       "type": ""
     },
     "range": {
-      "value": 10,
+      "value": 5,
       "long": null,
       "units": "ft"
     },
@@ -58,12 +58,12 @@
     "chatFlavor": "",
     "critical": {
       "threshold": null,
-      "damage": ""
+      "damage": "2d8 + @mod"
     },
     "damage": {
       "parts": [
         [
-          "1d6 + @mod",
+          "1d8 + @mod",
           "slashing"
         ]
       ],
@@ -85,22 +85,9 @@
       "conditions": ""
     },
     "weaponType": "martialM",
-    "baseItem": "whip",
+    "baseItem": "khopesh",
     "properties": {
-      "fin": true,
-      "rch": true,
-      "amm": false,
-      "hvy": false,
-      "fir": false,
-      "foc": false,
-      "lgt": false,
-      "lod": false,
-      "rel": false,
-      "ret": false,
-      "spc": false,
-      "thr": false,
-      "two": false,
-      "ver": false
+      "hic": true
     },
     "proficient": false
   },
@@ -115,8 +102,8 @@
     "systemId": "dnd5e",
     "systemVersion": "2.1.0",
     "coreVersion": "10.291",
-    "createdTime": 1661787233649,
-    "modifiedTime": 1671220960457,
+    "createdTime": 1661787233436,
+    "modifiedTime": 1671220957009,
     "lastModifiedBy": "dnd5ebuilder0000"
   }
 }

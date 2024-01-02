@@ -1,19 +1,19 @@
 {
-  "_id": "QKTyxoO0YDnAsbYe",
-  "name": "Whip",
+  "_id": "0E565kQUBmndJ8Hd",
+  "name": "Wrist Dagger",
   "type": "weapon",
-  "img": "icons/weapons/misc/whip-red-yellow.webp",
+  "img": "icons/weapons/daggers/dagger-jeweled-purple.webp",
   "system": {
     "description": {
-      "value": "<p>A tensile lash made of leather, cord, or chain which can lash out at nearby enemies, dealing lacerations and harrying them from a distance.</p>",
+      "value": "<p>A spring-loaded blade worn on the inner side of the forearm, used frequently by assassins.</p>",
       "chat": "",
       "unidentified": ""
     },
     "source": "SRD 5.1",
     "quantity": 1,
-    "weight": 3,
+    "weight": 2,
     "price": {
-      "value": 30,
+      "value": 20,
       "denomination": "gp"
     },
     "attunement": 0,
@@ -37,8 +37,8 @@
       "type": ""
     },
     "range": {
-      "value": 10,
-      "long": null,
+      "value": 20,
+      "long": 60,
       "units": "ft"
     },
     "uses": {
@@ -63,8 +63,8 @@
     "damage": {
       "parts": [
         [
-          "1d6 + @mod",
-          "slashing"
+          "1d4 + @mod",
+          "piercing"
         ]
       ],
       "versatile": ""
@@ -85,20 +85,22 @@
       "conditions": ""
     },
     "weaponType": "martialM",
-    "baseItem": "whip",
+    "baseItem": "wristDagger",
     "properties": {
+      "att": true,
+      "cov": true,
       "fin": true,
-      "rch": true,
+      "lgt": true,
+      "thr": false,
       "amm": false,
       "hvy": false,
       "fir": false,
       "foc": false,
-      "lgt": false,
       "lod": false,
+      "rch": false,
       "rel": false,
       "ret": false,
       "spc": false,
-      "thr": false,
       "two": false,
       "ver": false
     },
@@ -115,8 +117,8 @@
     "systemId": "dnd5e",
     "systemVersion": "2.1.0",
     "coreVersion": "10.291",
-    "createdTime": 1661787233649,
-    "modifiedTime": 1671220960457,
+    "createdTime": 1661787233433,
+    "modifiedTime": 1671220956984,
     "lastModifiedBy": "dnd5ebuilder0000"
   }
 }

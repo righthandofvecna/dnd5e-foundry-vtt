@@ -1,19 +1,19 @@
 {
-  "_id": "QKTyxoO0YDnAsbYe",
-  "name": "Whip",
+  "_id": "osLzOwQdPtrK3rQI",
+  "name": "Dagger-Toed Boot",
   "type": "weapon",
-  "img": "icons/weapons/misc/whip-red-yellow.webp",
+  "img": "icons/weapons/swords/sword-guard-brown.webp",
   "system": {
     "description": {
-      "value": "<p>A tensile lash made of leather, cord, or chain which can lash out at nearby enemies, dealing lacerations and harrying them from a distance.</p>",
+      "value": "<p>A set of boots that contain a hidden spring-loaded blade.</p>",
       "chat": "",
       "unidentified": ""
     },
     "source": "SRD 5.1",
     "quantity": 1,
-    "weight": 3,
+    "weight": 1,
     "price": {
-      "value": 30,
+      "value": 25,
       "denomination": "gp"
     },
     "attunement": 0,
@@ -37,7 +37,7 @@
       "type": ""
     },
     "range": {
-      "value": 10,
+      "value": 5,
       "long": null,
       "units": "ft"
     },
@@ -85,16 +85,19 @@
       "conditions": ""
     },
     "weaponType": "martialM",
-    "baseItem": "whip",
+    "baseItem": "daggerToedBoot",
     "properties": {
       "fin": true,
-      "rch": true,
+      "cov": true,
+      "att": true,
+      "haf": true,
+      "lgt": true,
       "amm": false,
       "hvy": false,
       "fir": false,
       "foc": false,
-      "lgt": false,
       "lod": false,
+      "rch": false,
       "rel": false,
       "ret": false,
       "spc": false,
@@ -115,8 +118,8 @@
     "systemId": "dnd5e",
     "systemVersion": "2.1.0",
     "coreVersion": "10.291",
-    "createdTime": 1661787233649,
-    "modifiedTime": 1671220960457,
+    "createdTime": 1661787233871,
+    "modifiedTime": 1671220964357,
     "lastModifiedBy": "dnd5ebuilder0000"
   }
 }

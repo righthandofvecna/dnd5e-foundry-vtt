@@ -1,19 +1,19 @@
 {
-  "_id": "QKTyxoO0YDnAsbYe",
-  "name": "Whip",
+  "_id": "10ZP2Bu3vnCuY9Hg",
+  "name": "Katana",
   "type": "weapon",
-  "img": "icons/weapons/misc/whip-red-yellow.webp",
+  "img": "icons/weapons/swords/greatsword-crossguard-steel.webp",
   "system": {
     "description": {
-      "value": "<p>A tensile lash made of leather, cord, or chain which can lash out at nearby enemies, dealing lacerations and harrying them from a distance.</p>",
+      "value": "<p>This weapon resembles a short sickle with a flail attached to the base of the handle.</p><p><strong>Special.</strong> When you hit a creature with this weapon, you can immediately make an attack as a bonus action with the bladed side of this weapon. You have the same bonus to hit and damage, and the attack deals 1d4 piercing damage.</p>",
       "chat": "",
       "unidentified": ""
     },
     "source": "SRD 5.1",
     "quantity": 1,
-    "weight": 3,
+    "weight": 4,
     "price": {
-      "value": 30,
+      "value": 25,
       "denomination": "gp"
     },
     "attunement": 0,
@@ -37,7 +37,7 @@
       "type": ""
     },
     "range": {
-      "value": 10,
+      "value": 5,
       "long": null,
       "units": "ft"
     },
@@ -67,7 +67,7 @@
           "slashing"
         ]
       ],
-      "versatile": ""
+      "versatile": "2d4 + @mod"
     },
     "formula": "",
     "save": {
@@ -85,22 +85,11 @@
       "conditions": ""
     },
     "weaponType": "martialM",
-    "baseItem": "whip",
+    "baseItem": "kusarigama",
     "properties": {
-      "fin": true,
-      "rch": true,
-      "amm": false,
-      "hvy": false,
-      "fir": false,
-      "foc": false,
-      "lgt": false,
-      "lod": false,
-      "rel": false,
-      "ret": false,
-      "spc": false,
-      "thr": false,
-      "two": false,
-      "ver": false
+      "shb": true,
+      "spc": true,
+      "two": true
     },
     "proficient": false
   },
@@ -115,8 +104,8 @@
     "systemId": "dnd5e",
     "systemVersion": "2.1.0",
     "coreVersion": "10.291",
-    "createdTime": 1661787233649,
-    "modifiedTime": 1671220960457,
+    "createdTime": 1661787233436,
+    "modifiedTime": 1671220957009,
     "lastModifiedBy": "dnd5ebuilder0000"
   }
 }

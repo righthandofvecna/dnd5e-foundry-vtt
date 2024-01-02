@@ -1,19 +1,19 @@
 {
-  "_id": "QKTyxoO0YDnAsbYe",
-  "name": "Whip",
+  "_id": "3gynWO9sN4OLGLI4",
+  "name": "Boomerang",
   "type": "weapon",
-  "img": "icons/weapons/misc/whip-red-yellow.webp",
+  "img": "icons/weapons/slings/slingshot-wood.webp",
   "system": {
     "description": {
-      "value": "<p>A tensile lash made of leather, cord, or chain which can lash out at nearby enemies, dealing lacerations and harrying them from a distance.</p>",
+      "value": "<p>A flat, curved wooden stick meant for throwing at enemies. If thrown correctly, it can return to your hand.</p><p><strong>Special.</strong> If you are proficient with boomerangs and you miss a ranged weapon attack made with this weapon, the boomerang returns to your hand.</p>",
       "chat": "",
       "unidentified": ""
     },
     "source": "SRD 5.1",
     "quantity": 1,
-    "weight": 3,
+    "weight": 2,
     "price": {
-      "value": 30,
+      "value": 5,
       "denomination": "gp"
     },
     "attunement": 0,
@@ -37,8 +37,8 @@
       "type": ""
     },
     "range": {
-      "value": 10,
-      "long": null,
+      "value": 25,
+      "long": 100,
       "units": "ft"
     },
     "uses": {
@@ -53,7 +53,7 @@
       "amount": null
     },
     "ability": null,
-    "actionType": "mwak",
+    "actionType": "rwak",
     "attackBonus": "",
     "chatFlavor": "",
     "critical": {
@@ -64,7 +64,7 @@
       "parts": [
         [
           "1d6 + @mod",
-          "slashing"
+          "bludgeoning"
         ]
       ],
       "versatile": ""
@@ -84,21 +84,21 @@
       "dt": null,
       "conditions": ""
     },
-    "weaponType": "martialM",
-    "baseItem": "whip",
+    "weaponType": "martialR",
+    "baseItem": "boomerang",
     "properties": {
-      "fin": true,
-      "rch": true,
+      "thr": true,
+      "spc": true,
       "amm": false,
       "hvy": false,
+      "fin": false,
       "fir": false,
       "foc": false,
       "lgt": false,
       "lod": false,
+      "rch": false,
       "rel": false,
       "ret": false,
-      "spc": false,
-      "thr": false,
       "two": false,
       "ver": false
     },
@@ -115,8 +115,8 @@
     "systemId": "dnd5e",
     "systemVersion": "2.1.0",
     "coreVersion": "10.291",
-    "createdTime": 1661787233649,
-    "modifiedTime": 1671220960457,
+    "createdTime": 1661787233458,
+    "modifiedTime": 1671220957255,
     "lastModifiedBy": "dnd5ebuilder0000"
   }
 }

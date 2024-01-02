@@ -19,7 +19,6 @@ def loadItemPrices(xml: str):
                 accessor=cmdize(name)
                 costString = child.find("cost").text
                 cost = extract_int(costString)
-                denomination = "gp"
                 if " sp" in costString:
                     cost /= 10.0
                 elif " cp" in costString:

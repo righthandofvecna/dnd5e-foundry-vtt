@@ -58,12 +58,12 @@
     "chatFlavor": "",
     "critical": {
       "threshold": null,
-      "damage": ""
+      "damage": "2d4 + @mod"
     },
     "damage": {
       "parts": [
         [
-          "1d6 + @mod",
+          "1d4 + @mod",
           "slashing"
         ]
       ],
@@ -89,6 +89,7 @@
     "properties": {
       "lgt": true,
       "thr": true,
+      "hic": true,
       "amm": false,
       "hvy": false,
       "fin": false,

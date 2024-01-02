@@ -1,19 +1,19 @@
 {
-  "_id": "QKTyxoO0YDnAsbYe",
-  "name": "Whip",
+  "_id": "i4NeNZ30ycwPDHMy",
+  "name": "Scythe",
   "type": "weapon",
-  "img": "icons/weapons/misc/whip-red-yellow.webp",
+  "img": "icons/weapons/sickles/sickle-curved.webp",
   "system": {
     "description": {
-      "value": "<p>A tensile lash made of leather, cord, or chain which can lash out at nearby enemies, dealing lacerations and harrying them from a distance.</p>",
+      "value": "<p>A curved blade attached perpendicular to a long wooden shaft functions as an effective farming implement and a viable weapon.</p>",
       "chat": "",
       "unidentified": ""
     },
     "source": "SRD 5.1",
     "quantity": 1,
-    "weight": 3,
+    "weight": 4,
     "price": {
-      "value": 30,
+      "value": 5,
       "denomination": "gp"
     },
     "attunement": 0,
@@ -37,7 +37,7 @@
       "type": ""
     },
     "range": {
-      "value": 10,
+      "value": 5,
       "long": null,
       "units": "ft"
     },
@@ -84,22 +84,22 @@
       "dt": null,
       "conditions": ""
     },
-    "weaponType": "martialM",
-    "baseItem": "whip",
+    "weaponType": "simpleM",
+    "baseItem": "scythe",
     "properties": {
-      "fin": true,
-      "rch": true,
+      "lgt": false,
       "amm": false,
       "hvy": false,
+      "fin": false,
       "fir": false,
       "foc": false,
-      "lgt": false,
       "lod": false,
+      "rch": true,
       "rel": false,
       "ret": false,
       "spc": false,
       "thr": false,
-      "two": false,
+      "two": true,
       "ver": false
     },
     "proficient": false
@@ -115,8 +115,8 @@
     "systemId": "dnd5e",
     "systemVersion": "2.1.0",
     "coreVersion": "10.291",
-    "createdTime": 1661787233649,
-    "modifiedTime": 1671220960457,
+    "createdTime": 1661787233819,
+    "modifiedTime": 1671220963056,
     "lastModifiedBy": "dnd5ebuilder0000"
   }
 }
