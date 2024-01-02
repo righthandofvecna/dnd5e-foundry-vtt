@@ -1,8 +1,8 @@
 {
   "_id": "10ZP2Bu3vnCuY9Hg",
-  "name": "Katana",
+  "name": "Kusarigama",
   "type": "weapon",
-  "img": "icons/weapons/swords/greatsword-crossguard-steel.webp",
+  "img": "icons/weapons/maces/flail-ball-grey.webp",
   "system": {
     "description": {
       "value": "<p>This weapon resembles a short sickle with a flail attached to the base of the handle.</p><p><strong>Special.</strong> When you hit a creature with this weapon, you can immediately make an attack as a bonus action with the bladed side of this weapon. You have the same bonus to hit and damage, and the attack deals 1d4 piercing damage.</p>",

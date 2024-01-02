@@ -1,8 +1,8 @@
 {
   "_id": "QKTyxoO0YDnAsD8N",
-  "name": "Whip",
+  "name": "Spiked Chain",
   "type": "weapon",
-  "img": "icons/weapons/misc/whip-red-yellow.webp",
+  "img": "icons/tools/fasteners/chain-hook-grey.webp",
   "system": {
     "description": {
       "value": "<p>A long metal chain covered in sharp spikes, suitable for whipping and entangling around enemies.</p>",

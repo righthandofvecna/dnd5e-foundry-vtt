@@ -2,7 +2,7 @@
   "_id": "3gynWO9sN4OLGLI4",
   "name": "Boomerang",
   "type": "weapon",
-  "img": "icons/weapons/slings/slingshot-wood.webp",
+  "img": "icons/weapons/thrown/dagger-simple.webp",
   "system": {
     "description": {
       "value": "<p>A flat, curved wooden stick meant for throwing at enemies. If thrown correctly, it can return to your hand.</p><p><strong>Special.</strong> If you are proficient with boomerangs and you miss a ranged weapon attack made with this weapon, the boomerang returns to your hand.</p>",

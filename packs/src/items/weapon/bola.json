@@ -2,7 +2,7 @@
   "_id": "3gynWO9sN4OLGAfI",
   "name": "Bola",
   "type": "weapon",
-  "img": "icons/weapons/slings/slingshot-wood.webp",
+  "img": "icons/weapons/thrown/bolas-stone.webp",
   "system": {
     "description": {
       "value": "<p>A pair of heavy stones or metal spheres attached with a chain or rope, usually thrown to tie enemies legs together.</p><p><strong>Special.</strong> In addition to taking damage, a Medium or smaller creature hit by a bola must make a DC 15 Dexterity saving throw. On a failure, the target is immobilized until the end of its next turn. A bola has no additional effect on creatures that are formless, or creatures that are Large or larger.</p>",

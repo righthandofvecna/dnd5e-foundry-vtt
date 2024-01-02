@@ -2,7 +2,7 @@
   "_id": "10ZP2Bu3vnCuYMIB",
   "name": "Katana",
   "type": "weapon",
-  "img": "icons/weapons/swords/greatsword-crossguard-steel.webp",
+  "img": "icons/weapons/swords/scimitar-guard-wood.webp",
   "system": {
     "description": {
       "value": "<p>A narrow, slightly curved blade with a long handle.</p>",

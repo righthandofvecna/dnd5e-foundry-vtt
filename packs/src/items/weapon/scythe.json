@@ -2,7 +2,7 @@
   "_id": "i4NeNZ30ycwPDHMy",
   "name": "Scythe",
   "type": "weapon",
-  "img": "icons/weapons/sickles/sickle-curved.webp",
+  "img": "icons/weapons/sickles/scythe-wrapped-yellow.webp",
   "system": {
     "description": {
       "value": "<p>A curved blade attached perpendicular to a long wooden shaft functions as an effective farming implement and a viable weapon.</p>",
