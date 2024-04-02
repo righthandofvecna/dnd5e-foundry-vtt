@@ -32,16 +32,16 @@
             {{!-- Character Summary --}}
             <ul class="summary flexrow">
                 <li class="ancestry">
-                    <input type="text" name="system.details.ancestry" value="{{system.details.ancestry}}" placeholder="{{ localize 'DND5E.Ancestry' }}"/>
+                    <input type="text" name="system.details.ancestry" value="{{system.details.ancestry}}" placeholder="{{ localize 'DND5E.Ancestry' }}" data-tooltip="DND5E.Ancestry"/>
                 </li>
                 <li class="culture">
-                    <input type="text" name="system.details.culture" value="{{system.details.culture}}" placeholder="{{ localize 'DND5E.Culture' }}"/>
+                    <input type="text" name="system.details.culture" value="{{system.details.culture}}" placeholder="{{ localize 'DND5E.Culture' }}" data-tooltip="DND5E.Culture"/>
                 </li>
                 <li class="background">
                     {{#if labels.background}}
                         <span data-tooltip="DND5E.Background">{{labels.background}}</span>
                     {{else}}
-                        <input type="text" name="system.details.background" value="{{system.details.background}}" placeholder="{{ localize 'DND5E.Background' }}"/>
+                        <input type="text" name="system.details.background" value="{{system.details.background}}" placeholder="{{ localize 'DND5E.Background' }}" data-tooltip="DND5E.Background"/>
                     {{/if}}
                 </li>
                 <li class="proficiency">

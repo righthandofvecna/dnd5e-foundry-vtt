@@ -295,6 +295,7 @@ preLocalize("toolProficiencies", { sort: true });
  */
 DND5E.toolIds = {
   alchemist: "SztwZhbhZeCqyAes",
+  artificer: "P5csCLdFgrTTb0BY",
   bagpipes: "yxHi57T5mmVt0oDr",
   brewer: "Y9S75go1hLMXUD48",
   calligrapher: "jhjo20QoiD5exf09",

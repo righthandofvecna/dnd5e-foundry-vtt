@@ -1,0 +1,121 @@
+{
+  "name": "Hinderance: Anemic",
+  "type": "feat",
+  "img": "icons/commodities/biological/organ-heart-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>An anemic character is particularly susceptible to sickness, disease, environmental effects, and fatigue. <strong>You have disadvantage on Constitution saving throws.</strong> One of your Dexterity, Intelligence, Wisdom, or Charisma scores of your choice increases by 1, to a maximum of 20.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [
+    {
+      "icon": "icons/commodities/biological/organ-heart-red.webp",
+      "origin": "Item.MfrG67NFgtkbpENN",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "name": "Hinderance: Anemic",
+      "_id": "kvqH8jpmo16LF44m",
+      "changes": [
+        {
+          "key": "flags.game-tweaks-5e.modifiers.save.con.disadvantage",
+          "mode": 5,
+          "value": "true"
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "flags": {},
+      "tint": null
+    }
+  ],
+  "folder": null,
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "amnesiac",
+      "system": "dnd5e",
+      "coreVersion": "11.315",
+      "systemVersion": "2.2.1"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "11.315",
+    "createdTime": 1710699471257,
+    "modifiedTime": 1710708531235,
+    "lastModifiedBy": "VaElJ3qRQ0d8y3sn"
+  }
+}
